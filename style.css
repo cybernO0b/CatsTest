@@ -11,7 +11,7 @@ header {
     color: white;
     background-color: #445;
     width: 100%;
-    background-image: url(../imgcats/logo.png);
+    background-image: url(./imgcats/logo.png);
     background-repeat: repeat-x;
     background-size: 109px;
     background-position: 1mm;
@@ -51,7 +51,7 @@ footer {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #445 url(../gif/Aq.gif) no-repeat center center;
+  background: #445 url(./gif/Aq.gif) no-repeat center center;
   background-size: 100% ;
 }
 
