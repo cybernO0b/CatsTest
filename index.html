@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Бабуленькины коты</title>
+</head>
+<body>
+    <div id="preloader" class="visible"></div>
+
+    <header>
+        <form action="index.html" target="_blank">
+            <button>Главная</button>
+           </form>
+           <form action="/add.html" target="_blank">
+            <button>Добавить котика</button>
+           </form>
+    </header>
+    <main>
+        <div class="container">
+            <div class="card__cat">
+                <div class="img"></div>
+                <div class="name">bosik</div>
+                <div class="rating">5</div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        &copy; dfgsdg
+    </footer>
+    <script>
+       function loadData() {
+  return new Promise((resolve, reject) => {
+    setTimeout(resolve, 2000);
+  })
+}
+
+loadData()
+  .then(() => {
+    let preloaderEl = document.getElementById('preloader');
+    preloaderEl.classList.add('hidden');
+    preloaderEl.classList.remove('visible');
+  });
+      </script>
+</body>
+</html>
