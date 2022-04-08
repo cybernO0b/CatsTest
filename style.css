@@ -11,7 +11,7 @@ header {
     color: white;
     background-color: #445;
     width: 100%;
-    background-image: url(./imgcats/logo.png);
+    background-image: url('imgсcats/logo.png');
     background-repeat: repeat-x;
     background-size: 109px;
     background-position: 1mm;
