@@ -64,10 +64,12 @@ footer {
                     background-color: rgba(119, 119, 119, 0);
                     background-repeat: no-repeat;
                     background-size: 95%;
-                    border-radius: 100px;
+                    border-radius: 10px;
                     display: flex;
                     
                 }
+
+               
             .rating__cat {
                 display: flex;
                 justify-content: space-between;
@@ -92,13 +94,13 @@ footer {
         .visible {
         visibility: visible;
         opacity: 1;
-        transition: opacity 2s linear;
+        transition: opacity 1s linear;
         }
 
         .hidden {
         visibility: hidden;
         opacity: 0;
-        transition: visibility 0s 4.5s, opacity 4s linear;
+        transition: visibility 0s 1.7s, opacity 2s linear;
         }
 
     /* STYLE BUTTON */
@@ -153,3 +155,5 @@ footer {
     .btn-15:active {
         top: 2px;
     }
+
+    
