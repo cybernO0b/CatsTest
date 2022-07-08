@@ -44,8 +44,8 @@ footer {
 
          .card__cat {
             height: 200px;
-            width: 300px;
-            background-color: rgba(119, 119, 119, 0.525);
+            width: 250px;
+            background-color: #796b7d7c;
             padding: 5px;
             border-radius: 25px;
             display: flex;
@@ -58,8 +58,8 @@ footer {
             cursor: zoom-in;
          }
             .img__cat {
-                    width: 70%;
-                    height: 100%;
+                    width: auto;
+                    height: 150px;
                     background-position: center;
                     background-color: rgba(119, 119, 119, 0);
                     background-repeat: no-repeat;
